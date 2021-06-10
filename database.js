@@ -8,3 +8,4 @@ db.on("error", console.error.bind(console, "error al conectar bd"));
 db.once("open", function () {
     console.log("bd conectada")
 })
+

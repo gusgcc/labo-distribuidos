@@ -2,7 +2,7 @@
 const express = require("express")
 const cors = require("cors")
 const routes = require("../routes/index")
-// const morgan = require("morgan")
+// const morgan = require("morgan") // nos indica el tipo de peticion
 //configuramos el app
 module.exports = app => {
     //configuraciones 

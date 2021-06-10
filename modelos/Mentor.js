@@ -1,3 +1,4 @@
+// Declaramos el modelos de la BD
 const { Schema, model } = require("mongoose")
 // const bcrypt = require("bcryptjs")
 
@@ -12,3 +13,4 @@ var mentorSchema = new Schema({
 const Mentor = model("Mentor", mentorSchema)//se creo el modelo Mentor
 
 module.exports = Mentor
+
